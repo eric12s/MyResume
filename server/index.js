@@ -28,6 +28,9 @@ var transport = {
       clientSecret:  process.env.CLIENTSECRET,
       refreshToken:  process.env.REFRESHTOKEN,
       accessToken: accessToken,
+    },
+    tls: {
+      rejectUnauthorized: false
     }
 }
 
